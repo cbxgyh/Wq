@@ -8,7 +8,7 @@ use rocket::local::Client;
 #[derive(Debug)]
 struct LocalConfig (Config);
 
-
+//测试
 #[get("/check_config")]
 fn check_config(config:State<'_,LocalConfig>)->Option<()>{
     let env= match std::env::var("ROCKET_ENV") {

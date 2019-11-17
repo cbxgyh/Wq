@@ -1,0 +1,32 @@
+[global.limit]
+froms=32
+json=100#这是json contrib模块额外使用的
+msgpack = 1048576 #这是msgpack contrib模块额外使用的功能
+
+#开发
+[development]
+address = "localhost"
+port = 8000
+workers = 1
+keep_alive = 5
+log = "normal"
+hi = "Hello!" # 这是未使用的额外费用； 也许特定于应用程序？
+is_extra = true# this is an unused extra; maybe application specific?
+#测试
+[staging]
+address = "0.0.0.0"
+port = 8000
+workers = 8
+keep_alive = 5
+log = "normal"
+# don't use this key! generate your own and keep it private!
+secret_key = "8Xui8SN4mI+7egV/9dlfYYLGQJeEx4+DwmSQLwDVXJg="
+#生产
+[production]
+address = "0.0.0.0"
+port = 8000
+workers = 12
+keep_alive = 5
+log = "critical"
+# don't use this key! generate your own and keep it private!
+secret_key = "hPRYyVRiMyxpw5sBB1XeCMN1kFsDCqKvBi2QJxBVHQk="
