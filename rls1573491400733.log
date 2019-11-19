@@ -1,0 +1,5 @@
+[2019-11-11T16:56:42Z ERROR rls::actions::hover] failed to extract docs: row: Row(0, PhantomData), file: "d:\\rust\\Wq\\src\\config\\mod.rs" (BadLocation)
+[2019-11-11T16:56:45Z ERROR rls::actions::hover] failed to extract docs: row: Row(0, PhantomData), file: "d:\\rust\\Wq\\src\\config\\mod.rs" (BadLocation)
+[2019-11-11T16:56:52Z ERROR rls::actions::hover] failed to extract docs: row: Row(0, PhantomData), file: "d:\\rust\\Wq\\src\\config\\mod.rs" (BadLocation)
+[2019-11-11T17:03:20Z ERROR rls::actions::hover] failed to extract docs: row: Row(0, PhantomData), file: "d:\\rust\\Wq\\src\\config\\mod.rs" (BadLocation)
+[2019-11-11T17:03:20Z ERROR rls::actions::hover] failed to extract docs: row: Row(0, PhantomData), file: "d:\\rust\\Wq\\src\\config\\mod.rs" (BadLocation)

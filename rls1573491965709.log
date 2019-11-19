@@ -1,0 +1,1 @@
+[2019-11-11T17:11:23Z ERROR rls::actions::hover] failed to extract docs: row: Row(0, PhantomData), file: "d:\\rust\\Wq\\src\\config\\mod.rs" (BadLocation)
